@@ -25,7 +25,7 @@ Scanner scanner=new Scanner(System.in);
 			return a+b;
 		}
 
-		else if(name.equals("sub")) {
+		else if(name.equals("mul")) {
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
