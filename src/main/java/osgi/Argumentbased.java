@@ -22,7 +22,7 @@ Scanner scanner=new Scanner(System.in);
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
-			return a+b;
+			return a+b;//ak
 		}
 
 
