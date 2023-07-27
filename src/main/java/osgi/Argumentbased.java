@@ -24,18 +24,23 @@ Scanner scanner=new Scanner(System.in);
 			System.out.println(a+b);
 			return a+b;
 		}
+
 		else if(name.equals("sub")) {
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
 			return a+b;
 		}
-		else if(name.equals("mul")) {
+		
+
+		if(name.equals("sub")) {
+
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
 			return a+b;
 		}
+
 		
 		else {
 			String a=scanner.next();
@@ -47,4 +52,5 @@ Scanner scanner=new Scanner(System.in);
 		
 		
 	}
+
 }
