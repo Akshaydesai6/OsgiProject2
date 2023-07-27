@@ -22,6 +22,7 @@ Scanner scanner=new Scanner(System.in);
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
+
 			return a+b;//akshay
 		}
 
@@ -29,17 +30,12 @@ Scanner scanner=new Scanner(System.in);
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
-			return a+b;
-		}
 		
 
-		if(name.equals("sub")) {
+			return a+b;//ak
 
-			int a=scanner.nextInt();
-			int b=scanner.nextInt();
-			System.out.println(a+b);
-			return a+b;
 		}
+
 
 		
 		else {
