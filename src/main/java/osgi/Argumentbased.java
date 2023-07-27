@@ -30,9 +30,7 @@ Scanner scanner=new Scanner(System.in);
 			int a=scanner.nextInt();
 			int b=scanner.nextInt();
 			System.out.println(a+b);
-		
-
-			return a+b;//ak
+			return a+b;//akkskakkdk
 
 		}
 
