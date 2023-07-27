@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1690355951471
+Build-Jdk: 1.8.0_362
+Built-By: akshay
+Bundle-ManifestVersion: 2
+Bundle-Name: test
+Bundle-SymbolicName: firstosgi.project
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: osgi;uses:="org.apache.karaf.shell.api.action,org.apache
+ .karaf.shell.api.action.lifecycle";version="0.0.1.SNAPSHOT"
+Import-Package: org.apache.karaf.shell.api.action;version="[4.2,5)",org.
+ apache.karaf.shell.api.action.lifecycle;version="[4.2,5)"
+Karaf-Commands: *
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906
