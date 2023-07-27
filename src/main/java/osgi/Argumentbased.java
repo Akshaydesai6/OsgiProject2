@@ -23,7 +23,7 @@ Scanner scanner=new Scanner(System.in);
 			int b=scanner.nextInt();
 			System.out.println(a+b);
 
-			return a+b;//akshay
+			return a+b;//akshay desai
 		}
 
 		else if(name.equals("mul")) {
