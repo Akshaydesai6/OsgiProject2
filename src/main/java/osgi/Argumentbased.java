@@ -31,28 +31,11 @@ Scanner scanner=new Scanner(System.in);
 			int b=scanner.nextInt();
 			System.out.println(a+b);
 		
-
 			return a*b;//ak
 
 		}
-		else if(name.equals("sub")) {
-			int a=scanner.nextInt();
-			int b=scanner.nextInt();
-			System.out.println(a+b);
-		
-
-			return a-b;//ak
-
-		}
-		else if(name.equals("div")) {
-			int a=scanner.nextInt();
-			int b=scanner.nextInt();
-			System.out.println(a+b);
-		
-
-			return a/b;//ak
-
-		}
+	
+	
 
 
 		
